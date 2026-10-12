@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Noto Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+  line-height: 2.2;
+}
+
+[dir="rtl"] {
+  direction: rtl;
+}

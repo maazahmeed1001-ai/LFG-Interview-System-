@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Path for top arched text: LEGEND FLOW GLOBAL -->
+    <!-- Arc from left to right along upper perimeter -->
+    <path id="topArc" d="M 68 250 A 182 182 0 0 1 432 250" fill="none" />
+    <!-- Path for bottom arched text: LFG. PVT. LTD -->
+    <path id="bottomArc" d="M 120 280 A 175 175 0 0 0 380 280" fill="none" />
+    
+    <clipPath id="globeClip">
+      <circle cx="250" cy="250" r="148" />
+    </clipPath>
+    
+    <radialGradient id="globeGrad" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="60%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0f2b5c" />
+    </radialGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Dark Navy Ring -->
+  <circle cx="250" cy="250" r="235" fill="#ffffff" stroke="#0b2545" stroke-width="12" />
+  <circle cx="250" cy="250" r="215" fill="none" stroke="#0b2545" stroke-width="3" />
+
+  <!-- Globe Background (clipped circle) -->
+  <g clip-path="url(#globeClip)">
+    <circle cx="250" cy="250" r="148" fill="url(#globeGrad)" />
+
+    <!-- Simplified Continents Shapes in lighter cyan/white -->
+    <!-- North & South America -->
+    <path d="M 170 145 Q 185 130 200 135 Q 210 150 200 170 Q 185 180 175 195 Q 170 215 175 230 Q 185 240 180 260 Q 170 280 185 310 Q 195 330 190 350 Q 180 370 170 380 Q 155 350 160 310 Q 150 270 145 230 Q 140 180 160 150 Z" fill="#ffffff" opacity="0.88" />
+    <!-- Europe & Africa & Asia -->
+    <path d="M 270 130 Q 300 125 320 140 Q 340 135 360 150 Q 380 165 370 190 Q 350 185 330 195 Q 315 180 295 185 Q 285 160 270 150 Z" fill="#ffffff" opacity="0.88" />
+    <path d="M 285 200 Q 320 205 340 230 Q 350 270 330 300 Q 310 320 290 350 Q 275 320 270 280 Q 265 240 285 200 Z" fill="#ffffff" opacity="0.88" />
+
+    <!-- Longitude / Latitude Grid Lines -->
+    <circle cx="250" cy="250" r="148" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+    <ellipse cx="250" cy="250" rx="90" ry="148" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.75" />
+    <ellipse cx="250" cy="250" rx="40" ry="148" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.75" />
+    <line x1="102" y1="250" x2="398" y2="250" stroke="#ffffff" stroke-width="2.5" opacity="0.8" />
+    <line x1="250" y1="102" x2="250" y2="398" stroke="#ffffff" stroke-width="2" opacity="0.75" />
+    <!-- Latitudes -->
+    <path d="M 125 180 Q 250 205 375 180" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.75" />
+    <path d="M 125 320 Q 250 295 375 320" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.75" />
+  </g>
+
+  <!-- Globe Border -->
+  <circle cx="250" cy="250" r="148" fill="none" stroke="#0b2545" stroke-width="6" />
+
+  <!-- Aerodynamic Swoop Trail wrapping around the globe -->
+  <path d="M 15 320 C 15 360, 60 375, 120 365 C 195 352, 280 310, 360 250 C 400 220, 440 185, 480 150 C 460 162, 420 185, 360 215 C 290 250, 190 295, 110 320 C 60 335, 30 330, 25 320 Z" fill="#0b2545" />
+
+  <!-- Commercial Airplane Jet Silhouette in flight -->
+  <g transform="translate(365, 235) rotate(-28) scale(0.9)" filter="url(#shadow)">
+    <!-- Jet Fuselage, Wings, Tail & Turbines -->
+    <path d="M -130 0 
+             C -90 -4, -40 -6, 40 -4 
+             C 80 -3, 110 -1, 130 4 
+             C 120 8, 90 10, 40 10 
+             C -30 10, -80 8, -130 5 
+             Z" fill="#0b2545" />
+    <!-- Main Right/Upper Wing -->
+    <path d="M -20 -4 L 15 -90 L 35 -90 L 10 -4 Z" fill="#0b2545" />
+    <path d="M 28 -88 L 35 -105 L 32 -88 Z" fill="#0b2545" /> <!-- Winglet -->
+    <!-- Main Left/Lower Wing -->
+    <path d="M -40 8 L -15 65 L 5 65 L -15 8 Z" fill="#0b2545" />
+    <path d="M 2 63 L 8 78 L 5 63 Z" fill="#0b2545" /> <!-- Winglet -->
+    <!-- Jet Engine Under Wing -->
+    <ellipse cx="-5" cy="-22" rx="14" ry="5" fill="#081a33" />
+    <ellipse cx="-25" cy="25" rx="12" ry="4" fill="#081a33" />
+    <!-- Tail Fin / Stabilizer -->
+    <path d="M -115 0 L -145 -45 L -130 -45 L -95 0 Z" fill="#0b2545" />
+    <path d="M -115 5 L -135 22 L -125 22 L -100 5 Z" fill="#0b2545" />
+    <!-- Cockpit Windows Accent (subtle white reflection) -->
+    <path d="M 105 -1 Q 115 0 120 2 Q 115 3 105 1 Z" fill="#ffffff" opacity="0.6" />
+  </g>
+
+  <!-- Top Arched Text: LEGEND FLOW GLOBAL -->
+  <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="4">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle" fill="#22c55e" stroke="#0b2545" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill">
+      LEGEND FLOW GLOBAL
+    </textPath>
+  </text>
+
+  <!-- Bottom Arched Text: LFG. PVT. LTD -->
+  <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="21" letter-spacing="6" fill="#0b2545">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+      LFG. PVT. LTD
+    </textPath>
+  </text>
+</svg>

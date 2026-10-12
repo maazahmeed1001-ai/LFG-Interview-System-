@@ -1,0 +1,324 @@
+{
+  "member_roster": [
+    {
+      "id": "b6d715e0-2b26-4668-9201-e5d26451c292",
+      "email": "personalemailmaazqaimkhani@gmail.com",
+      "password_hash": "$2b$10$.56M0s8wBznyw26fzd6LAu.Oy68EQscm5U4wBnStRNtHgZDykPI0K",
+      "full_name": "Maaz Qaimkhani",
+      "role": "admin",
+      "sponsor_id": "Not recorded",
+      "created_at": "2026-10-11T09:59:47.945202+00:00",
+      "updated_at": "2026-10-12T09:36:36.963+00:00"
+    },
+    {
+      "id": "836541b3-0750-493e-9cfc-5d890beb9d46",
+      "email": "candidate_1791798369498@legendflowglobal.test",
+      "password_hash": "$2b$10$SPvsg8Bap7VcF/1..ux7KuOImT3K2YLWc/rGN4wHBIIn.Ub3l0WSa",
+      "full_name": "Tariq Mehmood",
+      "role": "member",
+      "sponsor_id": "LFG-SPONSOR-9988",
+      "created_at": "2026-10-12T09:46:09.633+00:00",
+      "updated_at": "2026-10-12T09:46:09.71887+00:00"
+    },
+    {
+      "id": "3bd8c013-9d89-42de-9257-23fd7f9c2571",
+      "email": "candidate_1791798494515@legendflowglobal.test",
+      "password_hash": "$2b$10$Vp56qetiCqpEPM03YQh/6uKT/WB.7zWjU4NvAjzuXeOmxswGgrQzW",
+      "full_name": "Tariq Mehmood",
+      "role": "member",
+      "sponsor_id": "LFG-SPONSOR-9988",
+      "created_at": "2026-10-12T09:48:14.656+00:00",
+      "updated_at": "2026-10-12T09:48:14.742909+00:00"
+    }
+  ],
+  "interview_questions": [
+    {
+      "id": 1,
+      "question_number": 1,
+      "text_urdu": "آج کی پریزنٹیشن میں آپ نے سب سے اہم کیا سیکھا؟",
+      "text_english": "What was the most important thing you learned in today's presentation?",
+      "default_rubric": "Evaluates understanding of key themes from the LFG presentation, genuine takeaways and learning mindset. Irrelevant answers fail.",
+      "admin_approved_rubric": "Evaluates understanding of key themes from the LFG presentation, genuine takeaways and learning mindset. Irrelevant answers fail.",
+      "requires_custom_review": true,
+      "is_approved": true
+    },
+    {
+      "id": 2,
+      "question_number": 2,
+      "text_urdu": "آپ کے خیال میں آن لائن بزنس شروع کرنے کے لیے کون سی مہارتیں ضروری ہیں؟",
+      "text_english": "In your opinion, what skills are necessary to start an online business?",
+      "default_rubric": "Evaluates communication, digital literacy, customer interaction, consistency, discipline and marketing fundamentals.",
+      "admin_approved_rubric": "Evaluates communication, digital literacy, customer interaction, consistency, discipline and marketing fundamentals.",
+      "requires_custom_review": false,
+      "is_approved": true
+    },
+    {
+      "id": 3,
+      "question_number": 3,
+      "text_urdu": "آپ کو Legend Flow Global کے بزنس ماڈل میں کون سی بات سب سے زیادہ سمجھ آئی، اور کون سی بات مزید سمجھنا چاہتے ہیں؟",
+      "text_english": "What part of Legend Flow Global's business model did you understand best, and what would you like to understand better?",
+      "default_rubric": "Assesses understanding of team building, mentoring and distribution, plus honest identification of areas for training.",
+      "admin_approved_rubric": "Assesses understanding of team building, mentoring and distribution, plus honest identification of areas for training.",
+      "requires_custom_review": true,
+      "is_approved": true
+    },
+    {
+      "id": 4,
+      "question_number": 4,
+      "text_urdu": "اگر آپ کو کوئی شخص پہلی مرتبہ انکار کر دے تو آپ کیا کریں گے؟",
+      "text_english": "If someone says no to you for the first time, what would you do?",
+      "default_rubric": "Assesses resilience, professionalism, respecting the person’s decision and improving without pressure or aggression.",
+      "admin_approved_rubric": "Assesses resilience, professionalism, respecting the person’s decision and improving without pressure or aggression.",
+      "requires_custom_review": false,
+      "is_approved": true
+    },
+    {
+      "id": 5,
+      "question_number": 5,
+      "text_urdu": "اگر آپ کو کسی کام میں فوری کامیابی نہ ملے تو کیا آپ سیکھنا جاری رکھیں گے؟ کیوں؟",
+      "text_english": "If you do not achieve immediate success at a task, will you continue learning? Why?",
+      "default_rubric": "Evaluates patience, perseverance, adapting techniques and consistent effort.",
+      "admin_approved_rubric": "Evaluates patience, perseverance, adapting techniques and consistent effort.",
+      "requires_custom_review": false,
+      "is_approved": true
+    },
+    {
+      "id": 6,
+      "question_number": 6,
+      "text_urdu": "آپ اس موقع سے کیا حاصل کرنا چاہتے ہیں — نئی مہارتیں، تجربہ، ٹیم ورک یا کاروباری آمدنی؟",
+      "text_english": "What do you want to gain from this opportunity—new skills, experience, teamwork, or business income?",
+      "default_rubric": "Evaluates motivation, goals, clarity of purpose and realistic aspirations.",
+      "admin_approved_rubric": "Evaluates motivation, goals, clarity of purpose and realistic aspirations.",
+      "requires_custom_review": false,
+      "is_approved": true
+    },
+    {
+      "id": 7,
+      "question_number": 7,
+      "text_urdu": "اگر آپ کو کوئی کام سمجھ نہ آئے تو آپ مدد کیسے حاصل کریں گے؟",
+      "text_english": "If you do not understand a task, how would you get help?",
+      "default_rubric": "Evaluates asking mentors, reviewing training and collaborating respectfully.",
+      "admin_approved_rubric": "Evaluates asking mentors, reviewing training and collaborating respectfully.",
+      "requires_custom_review": false,
+      "is_approved": true
+    },
+    {
+      "id": 8,
+      "question_number": 8,
+      "text_urdu": "آپ روزانہ سیکھنے اور کام کرنے کے لیے حقیقتاً کتنا وقت دے سکتے ہیں؟",
+      "text_english": "How much time can you realistically dedicate to learning and working each day?",
+      "default_rubric": "Evaluates honesty, time management and realistic schedule awareness.",
+      "admin_approved_rubric": "Evaluates honesty, time management and realistic schedule awareness.",
+      "requires_custom_review": false,
+      "is_approved": true
+    },
+    {
+      "id": 9,
+      "question_number": 9,
+      "text_urdu": "فرض کریں آپ کو کسی نئے شخص کو آن لائن کورس یا بزنس پریزنٹیشن کے بارے میں بتانا ہے۔ آپ گفتگو کیسے شروع کریں گے؟",
+      "text_english": "Suppose you need to tell a new person about an online course or business presentation. How would you start the conversation?",
+      "default_rubric": "Assesses respectful communication, asking about needs and introducing the opportunity without pressure or misleading claims.",
+      "admin_approved_rubric": "Assesses respectful communication, asking about needs and introducing the opportunity without pressure or misleading claims.",
+      "requires_custom_review": false,
+      "is_approved": true
+    },
+    {
+      "id": 10,
+      "question_number": 10,
+      "text_urdu": "ہم آپ کو اپنی ٹیم میں کیوں شامل کریں؟ آپ کی کون سی خوبی ٹیم کے لیے فائدہ مند ہوگی؟",
+      "text_english": "Why should we include you in our team? What quality of yours would benefit the team?",
+      "default_rubric": "Assesses self-awareness, integrity, teamwork, willingness to learn and contribution to the team.",
+      "admin_approved_rubric": "Assesses self-awareness, integrity, teamwork, willingness to learn and contribution to the team.",
+      "requires_custom_review": false,
+      "is_approved": true
+    }
+  ],
+  "interview_attempts": [
+    {
+      "id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "member_id": "836541b3-0750-493e-9cfc-5d890beb9d46",
+      "status": "completed",
+      "total_score": 0,
+      "passed_questions": 0,
+      "is_passed": false,
+      "submission_time": "2026-10-12T09:46:10.154+00:00",
+      "evaluation_status": "failed",
+      "notification_status": "Interview submission recorded in central database and accessible to authorized LFG Seniors and Administrators. (External notification webhook is not configured, so no unverified automated messages were sent).",
+      "created_at": "2026-10-12T09:46:10.154+00:00",
+      "updated_at": "2026-10-12T09:46:12.425+00:00"
+    },
+    {
+      "id": "bb0bee15-866a-48d4-bd62-4ea0be0c3e72",
+      "member_id": "3bd8c013-9d89-42de-9257-23fd7f9c2571",
+      "status": "completed",
+      "total_score": 0,
+      "passed_questions": 0,
+      "is_passed": false,
+      "submission_time": "2026-10-12T09:48:15.243+00:00",
+      "evaluation_status": "pending",
+      "notification_status": "Interview submission recorded in central database and accessible to authorized LFG Seniors and Administrators. (External notification webhook is not configured, so no unverified automated messages were sent).",
+      "created_at": "2026-10-12T09:48:15.243+00:00",
+      "updated_at": "2026-10-12T09:48:15.243+00:00"
+    }
+  ],
+  "interview_answers": [
+    {
+      "id": "865f359e-3c8f-4224-b859-4ba1b0d11543",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 1,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "آج کی پریزنٹیشن سے میں نے سیکھا کہ لیجنڈ فلو گلوبل ایک بہترین آن لائن بزنس ماڈل ہے جس میں ٹیم ورک، ڈیجیٹل اسکلز اور رہنمائی کے ذریعے ہم عالمی سطح پر آزاد کاروبار قائم کر سکتے ہیں۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "2c1681cf-bc82-4c60-83e9-4b48cf90d26f",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 2,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "آن لائن بزنس کے لیے اچھی بات چیت (communication skills)، صبر، مستقل مزاجی، ڈیجیٹل مارکیٹنگ کی بنیادی معلومات اور سیکھنے کا جذبہ انتہائی ضروری ہیں۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "f4a99c70-0a9c-4b68-b3da-e931ad95fb97",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 3,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "مجھے LFG کا رہنمائی اور ٹیم سپورٹ ماڈل بہت پسند آیا۔ مزید یہ کہ میں مصنوعات کی تقسیم اور مارکیٹنگ کے جدید طریقوں کو تفصیلاً سمجھنا چاہتا ہوں۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "6c9e3cd8-f364-4328-b42a-a699e3bcf44a",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 4,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "اگر کوئی شخص انکار کرے تو میں مایوس نہیں ہوں گا، بلکہ اس کی رائے کا احترام کروں گا، اپنی گفتگو اور پیشکش کا جائزہ لوں گا اور مثبت تعلقات برقرار رکھوں گا۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "6597887a-7ed1-4160-8b03-eaab5febd6d8",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 5,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "جی بالکل، کامیابی وقت اور محنت مانگتی ہے۔ اگر فوری نتیجہ نہ ملے تو میں سیکھنا نہیں چھوڑوں گا بلکہ اپنی غلطیوں سے سبق سیکھ کر بہتر کوشش کروں گا۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "912771df-2744-49d8-b078-2cc0caaa8e47",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 6,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "میں اس پلیٹ فارم سے نئی ڈیجیٹل مہارتیں، باعزت آمدنی، ٹیم لیڈرشپ اور خود اعتمادی حاصل کرنا چاہتا ہوں تاکہ اپنے خاندان کا سہارا بن سکوں۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "193a1485-b79f-4eb9-af0b-95f1a5add0cf",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 7,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "اگر کوئی کام سمجھ نہ آئے تو میں اپنے سینئرز اور مینٹورز سے بلا جھجھک رہنمائی لوں گا، تربیتی ویڈیوز دیکھوں گا اور ٹیم کے ارکان سے مشاورت کروں گا۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "ba2559b3-b213-4c25-80b8-6d7604151aaa",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 8,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "میں روزانہ ۳ سے ۴ گھنٹے مکمل سنجیدگی کے ساتھ سیکھنے اور کام کرنے کے لیے مختص کر سکتا ہوں۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "5bf3ab42-8c66-4382-a6b9-455acee32ddd",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 9,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "میں پہلے ان کے حالات اور مقاصد کے بارے میں دوستانہ انداز میں پوچھوں گا، پھر LFG کا تعارف ایک قابل اعتماد آن لائن بزنس موقع کے طور پر کرواؤں گا بغیر کسی دباؤ کے۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    },
+    {
+      "id": "a5e726ce-7b69-4a59-92e2-6d125c9517d8",
+      "attempt_id": "6ec638fa-2063-47dd-a25d-28e1954a5642",
+      "question_number": 10,
+      "question_text_en": "",
+      "question_text_ur": "",
+      "answer_text": "میں محنتی، ایماندار اور سیکھنے کا شوقین انسان ہوں۔ میری مثبت سوچ اور ٹیم ورک کی صلاحیت LFG فیملی کی کامیابی میں بہترین کردار ادا کرے گی۔",
+      "score": 0,
+      "is_passed": false,
+      "explanation": "Evaluation queued for processing.",
+      "feedback": "Results will be processed shortly by the system.",
+      "evaluated_at": "2026-10-12T09:46:10.154+00:00"
+    }
+  ],
+  "audit_logs": [
+    {
+      "admin_id": "admin-primary-001",
+      "admin_email": "personalemailmaazqaimkhani@gmail.com",
+      "action": "UPLOAD_ORIGINAL_LOGO",
+      "target_type": "branding",
+      "target_id": "logo",
+      "details": {
+        "filename": "94175.jpg",
+        "sizeBytes": 109438
+      },
+      "id": "audit-1791795260352-ekvio",
+      "created_at": "2026-10-12T08:54:20.352Z"
+    },
+    {
+      "admin_id": "admin-primary-001",
+      "admin_email": "personalemailmaazqaimkhani@gmail.com",
+      "action": "UPLOAD_ORIGINAL_LOGO",
+      "target_type": "branding",
+      "target_id": "logo",
+      "details": {
+        "filename": "IMG-20261005-WA0080.jpg",
+        "sizeBytes": 70
+      },
+      "id": "audit-1791794715855-bwk90",
+      "created_at": "2026-10-12T08:45:15.855Z"
+    }
+  ]
+}

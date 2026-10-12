@@ -1,0 +1,6 @@
+{
+  "name": "LFG Online Interview System",
+  "description": "Legend Flow Global (LFG) Online Interview System featuring secure member registration, bilingual Urdu/English 10-question evaluation with Gemini AI, member portal, and administrator review dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
