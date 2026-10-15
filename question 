@@ -1,0 +1,17 @@
+x = 8
+
+if x > 5:
+
+if x % 2 == 0:
+
+print("Apple")
+
+else:
+
+print("Mango")
+
+else:
+
+print("Banana")
+
+A) Apple
